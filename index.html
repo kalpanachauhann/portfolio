@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalpana Chauhan | Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--NAVBAR-->
+  <nav id="navbar">
+    <div class="nav-brand">KC</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!--HERO-->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Kalpana Chauhan</h1>
+      <div class="hero-roles">
+        <span id="role-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-tagline">
+        Building smart web applications and data-driven solutions.<br>
+        Passionate about clean code and real-world impact.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact"  class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/kalpanachauhann" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kalpana-chauhan-886019395/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-block">
+        <span class="code-line"><span class="c-blue">class</span> <span class="c-yellow">Developer</span>:</span>
+        <span class="code-line">&nbsp;&nbsp;<span class="c-blue">def</span> <span class="c-green">__init__</span>(self):</span>
+        <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="c-orange">"Kalpana"</span></span>
+        <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.role = <span class="c-orange">"Dev + Analyst"</span></span>
+        <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;self.loves = <span class="c-orange">"Problem Solving"</span></span>
+        <span class="code-line">&nbsp;&nbsp;<span class="c-blue">def</span> <span class="c-green">greet</span>(self):</span>
+        <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-blue">return</span> <span class="c-orange">"Let's build something!"</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!--ABOUT-->
+  <section id="about">
+    <div class="section-header">
+      <h2>About <span class="highlight">Me</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Hi! I'm <strong>Kalpana Chauhan</strong>, a passionate developer with a strong
+          foundation in both web development and data analysis. I love turning ideas
+          into real, working applications — from sleek front-end interfaces to
+          data-driven backend systems.
+        </p>
+        <p>
+          I work with <strong>Python, Django, C++</strong> on the backend, use
+          <strong>NumPy & Pandas</strong> for data analysis, and build clean interfaces
+          with <strong>HTML & CSS</strong>. I'm always learning, always building.
+        </p>
+        <p>
+          Currently looking for opportunities to contribute to impactful engineering
+          projects. Open to internships, collaborations, and open-source work.
+        </p>
+      </div>
+      <div class="about-cards">
+        <div class="info-card">
+          <span class="info-icon">🎯</span>
+          <h4>Goal</h4>
+          <p>Software Engineering Intern @ Top Tech Company</p>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">💡</span>
+          <h4>Interests</h4>
+          <p>Web Development, Data Science, Problem Solving</p>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">🌐</span>
+          <h4>Open To</h4>
+          <p>Internships, Collaborations, Open Source</p>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">📍</span>
+          <h4>Location</h4>
+          <p>Delhi, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SKILLS-->
+  <section id="skills">
+    <div class="section-header">
+      <h2>My <span class="highlight">Skills</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-category">
+        <h3>Languages</h3>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">C++</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Web Development</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Django</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Libraries</h3>
+        <div class="skill-tags">
+          <span class="tag">NumPy</span>
+          <span class="tag">Pandas</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>UI/UX Design</h3>
+        <div class="skill-tags">
+          <span class="tag">Canva</span>
+          <span class="tag">Figma</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Tools</h3>
+        <div class="skill-tags">
+          <span class="tag">VS Code</span>
+          <span class="tag">Git & GitHub</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--PROJECTS-->
+  <section id="projects">
+    <div class="section-header">
+      <h2>My <span class="highlight">Projects</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">📊</span>
+          <div class="project-links">
+            <a href="https://github.com/YOUR_USERNAME/student-grade-analyzer" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <h3>Student Grade Analyzer</h3>
+        <p>A CLI tool that reads student data from CSV, analyzes grades, computes statistics using NumPy & Pandas, and exports a full report.</p>
+        <div class="project-tags">
+          <span>Python</span><span>NumPy</span><span>Pandas</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">💰</span>
+          <div class="project-links">
+            <a href="https://github.com/YOUR_USERNAME/expense-tracker" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <h3>Personal Expense Tracker</h3>
+        <p>A full-stack web app to track daily expenses by category. Built with Django backend and clean HTML/CSS frontend with CRUD operations.</p>
+        <div class="project-tags">
+          <span>Django</span><span>Python</span><span>HTML</span><span>CSS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">🏦</span>
+          <div class="project-links">
+            <a href="https://github.com/YOUR_USERNAME/bank-system-oop" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <h3>Full-Stack Bank Management System</h3>
+        <p>A bank management system built in both Python and C++ demonstrating core OOP concepts — classes, inheritance, encapsulation, and polymorphism.</p>
+        <div class="project-tags">
+          <span>Python</span><span>C++</span><span>OOP</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">🌐</span>
+          <div class="project-links">
+            <a href="https://github.com/YOUR_USERNAME/portfolio" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <h3>Developer Portfolio Website</h3>
+        <p>This responsive portfolio website showcasing my projects, skills, and background. Built with pure HTML, CSS, and JavaScript — no frameworks.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--EDUCATION-->
+  <section id="education">
+    <div class="section-header">
+      <h2>My <span class="highlight">Education</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2025 - Present</span>
+          <h3>Bachelor of Science (Hons.) Computer Science</h3>
+          <p class="timeline-place">SHAHEED SUKHDEV COLLEGE OF BUSINESS STUDIES (University of Delhi), India</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2025</span>
+          <h3>Class XII - PCM</h3>
+          <p class="timeline-place">WEST ACADEMY SENIOR SECONDARY SCHOOL</p>
+          <p>Scored 92.4% - CBSE Board</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--CONTACT-->
+  <section id="contact">
+    <div class="section-header">
+      <h2>Get In <span class="highlight">Touch</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>I'm currently open to internship opportunities. Whether you have a question, a project idea, or just want to say hi — my inbox is always open.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span>📧</span>
+            <a href="kalpana.25727@sscbs.du.ac.in">kalpana.25727@sscbs.du.ac.in</a>
+          </div>
+          <div class="contact-item">
+            <span>🐙</span>
+            <a href="https://github.com/kalpanachauhann" target="_blank">github.com/kalpanachauhann</a>
+          </div>
+          <div class="contact-item">
+            <span>💼</span>
+            <a href="https://www.linkedin.com/in/kalpana-chauhan-886019395/" target="_blank">linkedin.com/in/KALPANA_CHAUHAN</a>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <input  type="text"  placeholder="Your Name"    required />
+        <input  type="email" placeholder="Your Email"   required />
+        <textarea            placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message ✉</button>
+        <p id="form-msg" style="display:none; color:#00e5ff; margin-top:10px;">
+          ✅ Message sent! I'll get back to you soon.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer>
+    <p>Designed & Built by <span class="highlight">Kalpana Chauhan</span></p>
+    <p style="margin-top:6px; font-size:13px; color:#555;">© 2026 All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
